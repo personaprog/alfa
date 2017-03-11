@@ -1,7 +1,0 @@
-include ':app'
-include(':PerssonaProg')
-project(':PerssonaProg').projectDir = new File('../../Utils/PersonaPpUtils/app');
-include(':PlayUtils')
-project(':PlayUtils').projectDir = new File('../../Utils/PlayPpUtils/app');
-include(':AlfabetoUtils')
-project(':AlfabetoUtils').projectDir = new File('../../Utils/AlfabetoPpUtils/app');
